@@ -1,0 +1,11 @@
+This package will attempt to execute a function (closure or callable) until a set number of attempts have been made.
+
+It will intercept exceptions (and store them for reporting) and enables you to have significant control over how the function is handled during error conditions.
+
+It's great for access to remote URLs or databases where you risk experiencing failures.
+
+Note, it relies on exceptions to detect "failure" which will cause another attempt.
+
+For further information, please see the "examples" folder.
+
+More info will come later.
