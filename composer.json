@@ -1,0 +1,20 @@
+{
+  "name": "memdevs/attempt",
+  "description": "A small library for attempting operations with graceful retries, based on an idea by igorw/retry",
+  "keywords": ["attempt", "retry", "failure", "exception"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Steve Eriksen",
+      "email": "steve@membershipdevelopers.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "memdevs\\Attempt\\": "src/"
+    }
+  }
+}
